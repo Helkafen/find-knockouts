@@ -1,0 +1,11 @@
+# A helper file for Haskell dependencies (extra information for package.yaml)
+
+# For advanced use and comprehensive documentation of the format, please see:
+# https://docs.haskellstack.org/en/stable/yaml_configuration/
+
+# Resolver to choose a 'specific' stackage snapshot or a compiler version.
+# A snapshot resolver dictates the compiler version and the set of packages to be used for project dependencies. For example:
+resolver: lts-10.5
+
+nix:
+  enable: false
